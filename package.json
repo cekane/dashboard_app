@@ -1,0 +1,20 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "description": "This is a web app that I'm going to use to test my skills and develop a dashboard for myself to build off of",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon server.js"
+  },
+  "author": "Connor Kane",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  }
+}
